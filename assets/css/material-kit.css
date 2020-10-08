@@ -12028,6 +12028,10 @@ label {
   background-color: #333;
 }
 
+.section-text{
+    padding: 20px
+}
+
 .animate {
   transition: 1.5s ease-in-out;
   -moz-transition: 1.5s ease-in-out;
@@ -15433,7 +15437,7 @@ h6,
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 10px;
 }
 
