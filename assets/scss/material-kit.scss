@@ -51,6 +51,13 @@
  @import "material-kit/headers";
  @import "material-kit/footers";
 
+ @import "@material/floating-label/mdc-floating-label";
+ @import "@material/line-ripple/mdc-line-ripple";
+ @import "@material/notched-outline/mdc-notched-outline";
+ @import "@material/textfield";
+
+ @include textfield.core-styles;
+
  // Cards
  @import 'material-kit/cards';
  @import 'material-kit/cards/card-carousel';
@@ -64,3 +71,4 @@
  // Sections and Example pages
  @import "material-kit/example-pages";
  @import "material-kit/responsive";
+
