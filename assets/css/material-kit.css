@@ -52,6 +52,7 @@ figure,
 footer,
 header,
 hgroup,
+hgroup,
 main,
 nav,
 section {
@@ -4838,6 +4839,11 @@ tbody.collapse.show {
 
 .card-title {
   margin-bottom: 0.75rem;
+}
+
+.card-contact{
+   padding-bottom: 20px;
+    background-color: #EEEEEE !important;
 }
 
 .card-subtitle {
