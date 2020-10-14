@@ -12780,11 +12780,13 @@ form {
   display: none;
   font-size: .8rem;
   font-weight: normal;
+    color: #f44336 !important;
 }
 
 .bmd-form-group.is-focused .bmd-help {
   display: block;
 }
+
 
 .bmd-help:nth-of-type(2) {
   padding-top: 1rem;
@@ -14398,6 +14400,7 @@ label {
 
 .bmd-label-floating,
 .bmd-label-placeholder {
+  top: 2.3125rem;
   top: 2.3125rem;
 }
 
@@ -16902,7 +16905,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .header-filter::before {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .header-filter .container {

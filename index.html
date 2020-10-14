@@ -2,10 +2,20 @@
 <html lang="en">
   <head>
     <title>Operation Acupuncture</title>
+      
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>                                             
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="title" content="Operation Acupuncture">
+    <meta name="description" content="The Site description is going to go here. 150 words">
+    <meta name="keywords" content="acupuncture, california,  ">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+      
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+  
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
     <link href="assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
@@ -47,19 +57,18 @@
   </div>
 </nav>
 
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/bg0.jpg')">
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/bg-skull.jpg')">
   <div class="container">
     <div class="row">
       <div class="col-md-8 ml-auto mr-auto">
         <div class="brand text-center">
-          <h1>Operation Acupuncture</h1>
-          <h3 class="title text-center">Hollistic Post-Operative Care</h3>
+            <img src="assets/img/logo.png" alt="Square Image" class="img-fluid">
+            <h3 class="title text-center">Hollistic Post-Operative Care</h3>
         </div>
       </div>
     </div>
   </div>
 </div>
-
 <div class="main main-raised">
   <div class="container">
     <div class="row">
@@ -121,39 +130,36 @@ Studies have shown the use of acupuncture with pain medications can help decreas
                 </div>
             <form action="https://formspree.io/f/xeqpebwq" method="post">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col">
                   <div class="form-group bmd-form-group">
-                    <label class="bmd-label-floating">First Name</label>
-                    <input type="name" id="name" name="First Name" class="form-control">
+                    <label class="bmd-label-floating">Full Name</label>
+                      <input id="name" name="name" value="" aria-describedby="name-format" required aria-required=”true” class="form-control"/>
                   </div>
                 </div>
-                  <div class="col-md-6">
-                      <div class="form-group bmd-form-group">
-                    <label class="bmd-label-floating">Last Name</label>
-                    <input type="name" id="name" name="Last Name" class="form-control">
-                  </div>
-                  </div>
+                 
                 </div>
                    <div class="row">
                 <div class="col-md-6">
                   <div class="form-group bmd-form-group">
-                    <label class="bmd-label-floating">Your Email</label>
-                    <input type="email" id="email" name="email" class="form-control">
+                    <label class="bmd-label-floating">Email</label>
+                    <input type="email" id="email" name="email" required class="form-control">
+                     <span id="email-format" class="bmd-help">Please enter valid email : example@gmail.com</span>
                   </div>
                 </div>
                        <div class="col-md-6">
                   <div class="form-group bmd-form-group">
                     <label class="bmd-label-floating">Phone Number</label>
-                    <input type="phone" id="phone" name="phone number" class="form-control">
+                    <input type="tel" id="phone" name="phone" class="form-control"placeholder=" "
+		              pattern="^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$" required>
                   </div>
                 </div>
               </div>
               <div class="form-group bmd-form-group">
-                <label for="message" class="bmd-label-floating">Your Message</label>
-                <textarea type="message" class="form-control" rows="4" id="message" name="message"></textarea>
+                <label for="message" class="bmd-label-floating" >Your Message</label>
+                <textarea type="text" class="form-control" rows="4" id="message" name="message" required></textarea>
               </div>
                 <div class="col-md-4 ml-auto mr-auto text-center">
-                  <button class="btn btn-primary btn-raised" type="submit" id="submitButton">
+                  <button class="btn btn-primary btn-raised" type="submit" id="submit">
                     Send Message
                   </button>
                 </div>
