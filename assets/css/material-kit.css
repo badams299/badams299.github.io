@@ -12954,7 +12954,7 @@ fieldset[disabled] .is-focused .switch label:focus {
 
 [class^='bmd-label'],
 [class*=' bmd-label'] {
-  color: #999999;
+  color: #424242;
 }
 
 .form-control,
@@ -14146,7 +14146,7 @@ fieldset[disabled][disabled] .has-rose .form-control,
 
 .bmd-form-group:not(.has-success):not(.has-danger) [class^='bmd-label'].bmd-label-floating,
 .bmd-form-group:not(.has-success):not(.has-danger) [class*=' bmd-label'].bmd-label-floating {
-  color: #AAAAAA;
+  color: #424242;
 }
 
 .bmd-form-group [class^='bmd-label'],
