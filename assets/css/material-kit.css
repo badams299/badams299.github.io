@@ -489,6 +489,11 @@ section {
   display: block;
 }
 
+.subtitle{
+    font-size: 1.5625rem;
+    line-height: 1.4em;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -805,7 +810,8 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6
+.subtitle{
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 400;
@@ -824,7 +830,7 @@ h2,
 }
 
 h3,
-.h3 {
+.h3{
   font-size: 1.5625rem;
 }
 
@@ -4881,6 +4887,11 @@ tbody.collapse.show {
 .card-contact{
    padding-bottom: 20px;
     background-color: #EEEEEE !important;
+}
+
+.card-contact-faq{
+   padding-bottom: 20px;
+    background-color: #fff !important;
 }
 
 .card-subtitle {
@@ -15459,19 +15470,19 @@ html * {
 
 h1,
 .h1 {
-  font-size: 3.3125rem;
+font-size: 2.25rem;
   line-height: 1.15em;
 }
 
 h2,
 .h2 {
-  font-size: 2.25rem;
+    font-size: 1.5625rem;
   line-height: 1.5em;
 }
 
 h3,
 .h3 {
-  font-size: 1.5625rem;
+    font-size: 1.125rem;
   line-height: 1.4em;
 }
 
