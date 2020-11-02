@@ -16945,8 +16945,8 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .page-header.header-extra-small {
-  height: 35vh;
-  min-height: 35vh;
+  height: 40vh;
+  min-height: 40vh;
 }
 
 .page-header .iframe-container iframe {
