@@ -73,7 +73,7 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.75;
   color: #212529;
   text-align: left;
   background-color: #fafafa;
@@ -499,7 +499,7 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.75;
   color: #212529;
   text-align: left;
   background-color: #fafafa;
@@ -15440,7 +15440,7 @@ h6,
 .h4 {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
-  line-height: 1.5em;
+  line-height: 1.75em;
 }
 
 h1,
@@ -16974,6 +16974,10 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   background: rgba(0, 0, 0, 0.55);
 }
 
+.light-header-filter::before {
+  background: rgba(0, 0, 0, 0.25);
+}
+
 .header-filter .container {
   z-index: 2;
   position: relative;
@@ -18390,6 +18394,7 @@ footer .pull-center {
 .profile-page .description {
   margin: 1.071rem auto 0;
   max-width: 600px;
+    color: #666;
 }
 
 .profile-page .profile-tabs {
