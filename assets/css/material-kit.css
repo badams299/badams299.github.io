@@ -40,6 +40,21 @@
   box-sizing: border-box;
 }
 
+.index-bg-image {
+background-image: url('../img/bg-skull.webp'); /* Firefox */
+background-image: -webkit-image-set(
+            url('../img/bg-skull.webp') 1x,
+            url('../img/bg-skull.webp') 1.5x,
+            url('../img/bg-skull.webp') 2x
+        );
+background-image: image-set(
+            url('../img/bg-skull.jpg') 1x,
+            url('../img/bg-skull.jpg') 1.5x,
+            url('../img/bg-skull.jpg') 2x
+        ) /* Safari */
+}
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
