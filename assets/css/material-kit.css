@@ -54,6 +54,34 @@ background-image: image-set(
         ) /* Safari */
 }
 
+.faq-bg-image {
+background-image: url('../img/faq-bg.webp'); /* Firefox */
+background-image: -webkit-image-set(
+            url('../img/faq-bg.jpg') 1x,
+            url('../img/faq-bg.jpg') 1.5x,
+            url('../img/faq-bg.jpg') 2x
+        );
+background-image: image-set(
+            url('../img/faq-bg.jpg') 1x,
+            url('../img/faq-bg.jpg') 1.5x,
+            url('../img/faq-bg.jpg') 2x
+        ) /* Safari */
+}
+
+.profile-bg-image {
+background-image: url('../img/profile-bg.webp'); /* Firefox */
+background-image: -webkit-image-set(
+            url('../img/profile-bg.webp') 1x,
+            url('../img/profile-bg.webp') 1.5x,
+            url('../img/profile-bg.webp') 2x
+        );
+background-image: image-set(
+            url('../img/profile-bg.jpg') 1x,
+            url('../img/profile-bg.jpg') 1.5x,
+            url('../img/profile-bg.jpg') 2x
+        ) /* Safari */
+}
+
 
 html {
   font-family: sans-serif;
