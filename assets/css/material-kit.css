@@ -9494,6 +9494,7 @@ a.text-success:focus {
   -webkit-text-decoration-skip: objects;
   padding-bottom: 3px;
   border-bottom: 1px solid #D2DCEE;
+    word-wrap: break-word;
 }
 
 a.text-info:hover,
