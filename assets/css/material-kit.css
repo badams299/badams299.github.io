@@ -9503,6 +9503,22 @@ a.text-info:focus {
   border-bottom: 1px solid #007cba;
 }
 
+.text-footer {
+     color: #424242 !important;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #424242;
+    word-wrap: break-word;
+}
+
+a.text-footer:hover,
+a.text-footer:focus {
+  color: #888888 !important;
+  border-bottom: 1px solid #888888;
+}
+
 .text-warning {
   color: #ff9800 !important;
 }
@@ -14780,6 +14796,10 @@ textarea {
 
 .img-raised {
   box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.img-main {
+    margin: 16px;
 }
 
 .rounded {
