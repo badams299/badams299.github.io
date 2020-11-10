@@ -4671,7 +4671,12 @@ tbody.collapse.show {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-
+    
+    .navbar-expand-lg .navbar .navbar-nav .nav-item .nav-link:hover,
+    .navbar-expand-lg .navbar .navbar-nav .nav-item .nav-link:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+    
   .navbar-expand-lg>.container,
   .navbar-expand-lg>.container-fluid {
     flex-wrap: nowrap;
@@ -14885,10 +14890,14 @@ textarea {
   transform-origin: 100% 0;
 }
 
-.navbar .navbar-nav .nav-item.active .nav-link,
-.navbar .navbar-nav .nav-item.active .nav-link:hover,
-.navbar .navbar-nav .nav-item.active .nav-link:focus {
+.navbar-transparent.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar-transparent.navbar .navbar-nav .nav-item .nav-link:focus {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:focus {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .navbar .btn,
