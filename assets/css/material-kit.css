@@ -41,21 +41,11 @@
 }
 
 .index-bg-image {
-background-image: url('../img/bg-skull.webp'); /* Firefox */
-background-image: -webkit-image-set(
-            url('../img/bg-skull.webp') 1x,
-            url('../img/bg-skull.webp') 1.5x,
-            url('../img/bg-skull.webp') 2x
-        );
-background-image: image-set(
-            url('../img/bg-skull.jpg') 1x,
-            url('../img/bg-skull.jpg') 1.5x,
-            url('../img/bg-skull.jpg') 2x
-        ) /* Safari */
+background-image: url('../img/bg-skull.jpg'); /* Firefox */
 }
 
 .faq-bg-image {
-background-image: url('../img/faq-bg.webp'); /* Firefox */
+background-image: url('../img/faq-bg.jpg'); /* Firefox */
 background-image: -webkit-image-set(
             url('../img/faq-bg.jpg') 1x,
             url('../img/faq-bg.jpg') 1.5x,
@@ -2877,6 +2867,24 @@ select.form-control-lg:not([size]):not([multiple]),
   .form-inline .custom-control-label {
     margin-bottom: 0;
   }
+}
+
+.btn-faq {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    padding: 3px 6px;
+    border: medium none;
+    background-color: #535B99;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: left;    
+    text-decoration: none;
+    white-space: nowrap;
+    &:after {
+      content: attr(data-button-icon);
+      float: right;
+      padding-left: 1em;
+    }
 }
 
 .btn {
