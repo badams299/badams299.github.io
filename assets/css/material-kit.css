@@ -45,17 +45,7 @@ background-image: url('../img/bg-skull.jpg'); /* Firefox */
 }
 
 .faq-bg-image {
-background-image: url('../img/faq-bg.jpg'); /* Firefox */
-background-image: -webkit-image-set(
-            url('../img/faq-bg.jpg') 1x,
-            url('../img/faq-bg.jpg') 1.5x,
-            url('../img/faq-bg.jpg') 2x
-        );
-background-image: image-set(
-            url('../img/faq-bg.jpg') 1x,
-            url('../img/faq-bg.jpg') 1.5x,
-            url('../img/faq-bg.jpg') 2x
-        ) /* Safari */
+background-image: url('../img/faq-bg.jpg');
 }
 
 .profile-bg-image {
@@ -74,6 +64,13 @@ background-image: image-set(
 
 .research-bg-image {
 background-image: url('../img/research-bg.jpg'); /* Firefox */
+}
+
+.anchor{
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
 }
 
 
@@ -9796,7 +9793,7 @@ button:focus {
 .btn.btn-primary.btn-link:hover,
 .btn.btn-primary.btn-link:focus,
 .btn.btn-primary.btn-link:active {
-  background-color: transparent;
+  background-color: rgba(0,0,0,.1);
   color: var(--primary-btn-color);
 }
 

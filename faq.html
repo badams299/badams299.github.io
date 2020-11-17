@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
     <link href="assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
   </head>                                                             
-  <body class="profile-page">
+  <body>
  <nav class="navbar navbar-color-on-scroll fixed-top navbar-transparent navbar-expand-lg"  color-on-scroll="100">
   <div class="container">
       <div class="navbar-translate">
@@ -67,9 +67,17 @@
     </div>
   </div>
 </div>
-      <div class="main main-raised" style="padding-top:16px; padding-bottom: 16px">
+<div class="main main-raised" style="padding-top: 16px; margin: -128px 16px 8px;">   
+    <div class="container" >
+        <h2 style="margin-top: 0px;">Popular Topics:</h2>
+    <a class="btn btn-primary btn-link" style="padding: 8px 8px;" href="#acu">ACUPUNCTURE</a>
+    <a class="btn btn-primary btn-link" style="padding: 8px 8px;" href="#per-acu">PERI-OPERATIVE-ACUPUNCTURE</a>
+    </div>
+</div>
+<div class="main main-raised" style="padding-top:16px;padding-bottom: 16px;margin: 40px 16px 0px;">   
 <div class="container">
-    <h2 style="margin-top: 0px">Acupuncture</h2>
+    <span class="anchor" id="acu"></span>
+    <h2 id="acu"style="margin-top: 0px">Acupuncture</h2>
     <div id="acu-accordion">
             <div class=" card faq">
                 <div class="card card-header" id="headingOne">
@@ -217,8 +225,9 @@ You might feel an ache as the needles are inserted; however, the pains subside i
                 </div>
         </div>
 </div> 
-      <div class="container">
-    <h2 >Peri-Operative Acupuncture</h2>
+<div class="container">
+    <span class="anchor" id="per-acu"></span>
+    <h2>Peri-Operative Acupuncture</h2>
     <div id="peri-accordion">
             <div class=" card faq">
                 <div class="card card-header" id="headingNine">
@@ -317,7 +326,7 @@ You might feel an ache as the needles are inserted; however, the pains subside i
                 </div>
         </div>
 </div> 
-      </div>
+</div>
 <div class="container">      
 <div class="card card-contact-faq ">
     <!--Card content-->
